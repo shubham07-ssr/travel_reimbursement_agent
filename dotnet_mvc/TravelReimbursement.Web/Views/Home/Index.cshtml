@@ -1,0 +1,9 @@
+@{ ViewData["Title"] = "Travel Reimbursement Agent"; }
+<div class="container mt-5">
+  <h1>Travel Reimbursement Approval Agent</h1>
+  <p>ASP.NET Core MVC demo client for the Python policy-evaluation API.</p>
+  <p>API status: <strong>@(ViewBag.ApiAvailable ? "Connected" : "Not connected")</strong></p>
+  <h2>Provided sample claims</h2>
+  <pre style="white-space:pre-wrap">@ViewBag.SampleJson</pre>
+  <p>Evaluate claims through the API Swagger UI at <a href="http://localhost:8000/docs">/docs</a>.</p>
+</div>
